@@ -519,6 +519,12 @@ a.hire-cta:hover {
     flex: 1 0 50%;
 }
 
+@media (max-width: 768px) {
+    .content-item {
+        flex: 1 0 100%;
+    }
+}
+
 .content-item h3 {
     margin: 0 0 10px;
     line-height: 1;
