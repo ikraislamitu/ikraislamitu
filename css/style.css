@@ -288,16 +288,20 @@ button:focus,
 .header .content h1 {
     line-height: 1;
     margin: 0 0 5px;
+        font-size: 32px;
 }
 
 .header .content .lead {
-    font-size: 15px;
-    font-weight: bold;
+font-size: 18px;
+    font-weight: 500;
     color: #37a000;
-    border-bottom: 1px solid #ece8ef;
+    border-top: 1px solid rgb(236, 232, 239);
+    border-bottom: 1px solid rgb(236, 232, 239);
     letter-spacing: 1px;
     display: block;
+    padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 20px;
 }
 
 a.hire-cta {
@@ -340,7 +344,7 @@ a.hire-cta:hover {
 
 .download-cv {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
     color: #000;
     /* text-align: center; */
     display: block;
@@ -393,12 +397,16 @@ a.hire-cta:hover {
     display: block;
     font-size: 12px;
     color: #333333;
-    width: 34px;
-    height: 34px;
-    line-height: 33px;
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
     text-align: center;
     border-radius: 2px;
     border: 2px solid #eeeeee;
+}
+
+.social-icon li i {
+    font-size: 20px;
 }
 
 .social-icon li a:hover {
@@ -499,6 +507,8 @@ a.hire-cta:hover {
     margin: 0;
     line-height: 1;
     color: rgb(67, 67, 67);
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .portfolio-item .portfolio-info small {
